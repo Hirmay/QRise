@@ -1,2 +1,2 @@
 # QRise
-QRise repo
+Classiq Challenge
