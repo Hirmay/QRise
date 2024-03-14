@@ -1,2 +1,2 @@
-# QRise
+# Classiq Entanglers
 Classiq Challenge
