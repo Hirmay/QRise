@@ -1,0 +1,1 @@
+pip install pennylane-qiskit pennylane qiskit qiskit_qasm3_import
