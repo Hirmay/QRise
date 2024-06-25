@@ -1,1 +1,3 @@
 pip install pennylane-qiskit pennylane qiskit qiskit_qasm3_import
+numpy==2.0.0
+sympy==1.12.1
