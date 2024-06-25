@@ -1,12 +1,13 @@
 import numpy as np
-from sympy import symbols as syb
-from sympy import MatrixSymbol as msyb
-from sympy import sqrt, Array, I, Matrix
-from sympy.physics.quantum import Bra,Ket, TensorProduct
+from sympy import (
+    symbols as syb,
+    sqrt,I,Matrix,
+    simplify,
+    solve,
+)
+from sympy.physics.quantum import TensorProduct
 from sympy.physics.quantum.gate import HadamardGate as H
-from sympy.physics.quantum.gate import ZGate as Z
-from sympy import simplify, Eq, linsolve, solve
-from sympy.solvers import solve
+
 
 class post_processing:
     def __init__(self, E = 1, K = np.array(([1,1],[1,1])) ,M = [1,1],x_ini = [1,-1], x_dot_ini = [0,0] ) -> None:
